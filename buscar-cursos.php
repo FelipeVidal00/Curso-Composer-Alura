@@ -1,3 +1,4 @@
+#!/usr/bin/env php
 <?php
 
 //Importações.
@@ -21,6 +22,6 @@ $cursos = $buscador->buscar( url: '/cursos-online-programacao/php');
 
 //Loop para filtrar os cursos e imprimir.
 foreach ($cursos as $curso) {
-    echo exibeMensagem ($curso);
+    exibeMensagem ($curso);
 }
 
